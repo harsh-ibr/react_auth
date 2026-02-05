@@ -1,0 +1,30 @@
+/* Wrapper instead of body */
+.loginPage {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login card */
+.loginCard {
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Login button */
+.loginBtn {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border: none;
+}
+
+.loginBtn:hover {
+  opacity: 0.9;
+}
+
+/* Inputs */
+.input:focus {
+  box-shadow: none;
+  border-color: #667eea;
+}
